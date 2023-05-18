@@ -1,0 +1,60 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: white;
+  
+}
+
+h1 {
+  color: #FF0000;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-family:Sans-serif;
+  font-size:50px ;
+}
+
+h2 {
+  color: #0000FF;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-button:hover {
+  background-color: #444;
+}
+
+.actor-description {
+  font-style: italic;
+}
+
+.actor-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 601px) {
+  img {
+    width: 500px;
+    margin-left: 25%;
+  }
+}
